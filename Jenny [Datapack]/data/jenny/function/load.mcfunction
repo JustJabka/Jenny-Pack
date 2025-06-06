@@ -34,5 +34,4 @@ scoreboard objectives add jenny.cum dummy
 # Add dialogs
 # Add sfx
 # Make player model animated
-# Fix jenny's custom name not displaying
-# Optimization and migrate to AJ (fucking 100+ MB for a single resourcepack)
+# Optimization

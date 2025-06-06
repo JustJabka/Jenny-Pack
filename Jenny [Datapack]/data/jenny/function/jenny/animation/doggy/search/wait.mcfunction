@@ -1,1 +1,1 @@
-execute if predicate jenny:stepping_on_bed run return run function jenny:jenny/animation/doggy/start
+execute if block ~ ~-0.01 ~ #minecraft:beds run return run function jenny:jenny/animation/doggy/start
