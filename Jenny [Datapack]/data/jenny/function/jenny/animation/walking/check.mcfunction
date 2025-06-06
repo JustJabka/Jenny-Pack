@@ -1,0 +1,2 @@
+execute if score @s jenny.is_walking matches 1 run return run function jenny:jenny/animation/walking/true
+execute if score @s jenny.is_walking matches 0 run function jenny:jenny/animation/walking/false

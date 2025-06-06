@@ -1,0 +1,1 @@
+item modify entity @s armor.head jenny:walks

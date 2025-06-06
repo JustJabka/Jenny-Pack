@@ -1,0 +1,163 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:polar_bear_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{\"translate\":\"item.jenny.jenny_spawn_egg\",\"fallback\":\"Jenny Spawn Egg\"}",
+                                "minecraft:item_model": "jenny:jenny_spawn_egg",
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:wandering_trader",
+                                    "Tags": [
+                                        "jenny",
+                                        "jenny_spawn_egg"
+                                    ],
+                                    "PersistenceRequired": true,
+                                    "CanPickUpLoot": false,
+                                    "DeathLootTable": "jenny:entities/jenny",
+                                    "Silent": true,
+                                    "CustomName": "{\"translate\":\"entity.jenny.jenny\",\"fallback\":\"Jenny\"}",
+                                    "CustomNameVisible": false,
+                                    "ArmorItems": [
+                                        {},
+                                        {},
+                                        {},
+                                        {
+                                            "id": "minecraft:poisonous_potato",
+                                            "components": {
+                                                "minecraft:item_model": "jenny:jenny",
+                                                "minecraft:custom_model_data": {
+                                                    "colors": [
+                                                        0
+                                                    ],
+                                                    "flags": [
+                                                        false,
+                                                        true
+                                                    ],
+                                                    "strings": [
+                                                        ""
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "ArmorDropChances": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "HandDropChances": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "active_effects": [
+                                        {
+                                            "id": "minecraft:invisibility",
+                                            "duration": -1,
+                                            "show_particles": false
+                                        }
+                                    ],
+                                    "Offers": {
+                                        "Recipes": [
+                                            {
+                                                "rewardExp": false,
+                                                "maxUses": 1,
+                                                "buy": {
+                                                    "id": "minecraft:gold_ingot",
+                                                    "count": 1
+                                                },
+                                                "sell": {
+                                                    "id": "minecraft:poisonous_potato",
+                                                    "count": 1,
+                                                    "components": {
+                                                        "minecraft:item_name": "{\"translate\":\"action.names.strip\",\"fallback\":\"Strip\"}",
+                                                        "minecraft:item_model": "jenny:heart",
+                                                        "minecraft:custom_data": {
+                                                            "jenny.strip": true,
+                                                            "jenny.trade": true
+                                                        },
+                                                        "minecraft:max_stack_size": 1
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "rewardExp": false,
+                                                "maxUses": 1,
+                                                "buy": {
+                                                    "id": "minecraft:diamond",
+                                                    "count": 2
+                                                },
+                                                "sell": {
+                                                    "id": "minecraft:poisonous_potato",
+                                                    "count": 1,
+                                                    "components": {
+                                                        "minecraft:item_name": "{\"translate\":\"action.names.doggy\",\"fallback\":\"Doggy\"}",
+                                                        "minecraft:item_model": "jenny:heart",
+                                                        "minecraft:custom_data": {
+                                                            "jenny.doggy": true,
+                                                            "jenny.trade": true
+                                                        },
+                                                        "minecraft:max_stack_size": 1
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "rewardExp": false,
+                                                "maxUses": 1,
+                                                "buy": {
+                                                    "id": "minecraft:ender_pearl",
+                                                    "count": 2
+                                                },
+                                                "sell": {
+                                                    "id": "minecraft:poisonous_potato",
+                                                    "count": 1,
+                                                    "components": {
+                                                        "minecraft:item_name": "{\"translate\":\"action.names.boobjob\",\"fallback\":\"Boobjob\"}",
+                                                        "minecraft:item_model": "jenny:heart",
+                                                        "minecraft:custom_data": {
+                                                            "jenny.boobjob": true,
+                                                            "jenny.trade": true
+                                                        },
+                                                        "minecraft:max_stack_size": 1
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "rewardExp": false,
+                                                "maxUses": 1,
+                                                "buy": {
+                                                    "id": "minecraft:emerald",
+                                                    "count": 3
+                                                },
+                                                "sell": {
+                                                    "id": "minecraft:poisonous_potato",
+                                                    "count": 1,
+                                                    "components": {
+                                                        "minecraft:item_name": "{\"translate\":\"action.names.blowjob\",\"fallback\":\"Blowjob\"}",
+                                                        "minecraft:item_model": "jenny:heart",
+                                                        "minecraft:custom_data": {
+                                                            "jenny.blowjob": true,
+                                                            "jenny.trade": true
+                                                        },
+                                                        "minecraft:max_stack_size": 1
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

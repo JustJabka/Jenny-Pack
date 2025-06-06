@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wandering_trader",
+                    "nbt": "{Tags:[\"jenny\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "jenny:jenny/animation/hurt/adv"
+    }
+}

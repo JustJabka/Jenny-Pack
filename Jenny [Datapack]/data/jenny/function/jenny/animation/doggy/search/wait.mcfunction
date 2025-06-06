@@ -1,0 +1,1 @@
+execute if predicate jenny:stepping_on_bed run return run function jenny:jenny/animation/doggy/start

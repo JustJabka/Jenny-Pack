@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "jenny:item/heart"
+    },
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"gui": {
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"scale": [0, 0, 0]
+		}
+	}
+}

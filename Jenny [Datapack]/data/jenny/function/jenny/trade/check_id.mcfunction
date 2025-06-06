@@ -1,0 +1,33 @@
+scoreboard players set #trade jenny.id 0
+execute if entity @s[advancements={jenny:trade={bit0=true}}] run scoreboard players add #trade jenny.id 1
+execute if entity @s[advancements={jenny:trade={bit1=true}}] run scoreboard players add #trade jenny.id 2
+execute if entity @s[advancements={jenny:trade={bit2=true}}] run scoreboard players add #trade jenny.id 4
+execute if entity @s[advancements={jenny:trade={bit3=true}}] run scoreboard players add #trade jenny.id 8
+execute if entity @s[advancements={jenny:trade={bit4=true}}] run scoreboard players add #trade jenny.id 16
+execute if entity @s[advancements={jenny:trade={bit5=true}}] run scoreboard players add #trade jenny.id 32
+execute if entity @s[advancements={jenny:trade={bit6=true}}] run scoreboard players add #trade jenny.id 64
+execute if entity @s[advancements={jenny:trade={bit7=true}}] run scoreboard players add #trade jenny.id 128
+execute if entity @s[advancements={jenny:trade={bit8=true}}] run scoreboard players add #trade jenny.id 256
+execute if entity @s[advancements={jenny:trade={bit9=true}}] run scoreboard players add #trade jenny.id 512
+execute if entity @s[advancements={jenny:trade={bit10=true}}] run scoreboard players add #trade jenny.id 1024
+execute if entity @s[advancements={jenny:trade={bit11=true}}] run scoreboard players add #trade jenny.id 2048
+execute if entity @s[advancements={jenny:trade={bit12=true}}] run scoreboard players add #trade jenny.id 4096
+execute if entity @s[advancements={jenny:trade={bit13=true}}] run scoreboard players add #trade jenny.id 8192
+execute if entity @s[advancements={jenny:trade={bit14=true}}] run scoreboard players add #trade jenny.id 16384
+execute if entity @s[advancements={jenny:trade={bit15=true}}] run scoreboard players add #trade jenny.id 32768
+execute if entity @s[advancements={jenny:trade={bit16=true}}] run scoreboard players add #trade jenny.id 65536
+execute if entity @s[advancements={jenny:trade={bit17=true}}] run scoreboard players add #trade jenny.id 131072
+execute if entity @s[advancements={jenny:trade={bit18=true}}] run scoreboard players add #trade jenny.id 262144
+execute if entity @s[advancements={jenny:trade={bit19=true}}] run scoreboard players add #trade jenny.id 524288
+execute if entity @s[advancements={jenny:trade={bit20=true}}] run scoreboard players add #trade jenny.id 1048576
+execute if entity @s[advancements={jenny:trade={bit21=true}}] run scoreboard players add #trade jenny.id 2097152
+execute if entity @s[advancements={jenny:trade={bit22=true}}] run scoreboard players add #trade jenny.id 4194304
+execute if entity @s[advancements={jenny:trade={bit23=true}}] run scoreboard players add #trade jenny.id 8388608
+execute if entity @s[advancements={jenny:trade={bit24=true}}] run scoreboard players add #trade jenny.id 16777216
+execute if entity @s[advancements={jenny:trade={bit25=true}}] run scoreboard players add #trade jenny.id 33554432
+execute if entity @s[advancements={jenny:trade={bit26=true}}] run scoreboard players add #trade jenny.id 67108864
+execute if entity @s[advancements={jenny:trade={bit27=true}}] run scoreboard players add #trade jenny.id 134217728
+execute if entity @s[advancements={jenny:trade={bit28=true}}] run scoreboard players add #trade jenny.id 268435456
+execute if entity @s[advancements={jenny:trade={bit29=true}}] run scoreboard players add #trade jenny.id 536870912
+execute if entity @s[advancements={jenny:trade={bit30=true}}] run scoreboard players add #trade jenny.id 1073741824
+execute if entity @s[advancements={jenny:trade={bit31=true}}] run scoreboard players operation #trade jenny.id *= #-1 const

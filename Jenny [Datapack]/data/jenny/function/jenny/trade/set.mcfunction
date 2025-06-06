@@ -1,0 +1,3 @@
+execute if entity @s[advancements={jenny:trade={doggy=true}}] as @e[type=minecraft:wandering_trader,tag=jenny,predicate=jenny:id] run return run tag @s add jenny.doggy.search
+execute if entity @s[advancements={jenny:trade={boobjob=true}}] as @e[type=minecraft:wandering_trader,tag=jenny,predicate=jenny:id] run return run tag @s add jenny.boobjob.intro
+execute if entity @s[advancements={jenny:trade={blowjob=true}}] as @e[type=minecraft:wandering_trader,tag=jenny,predicate=jenny:id] run return run tag @s add jenny.blowjob.intro

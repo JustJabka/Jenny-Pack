@@ -1,0 +1,398 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+            {
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:custom_model_data",
+                    "index": 0,
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "jenny:item/nude/walk",
+                        "tints": [
+                            {
+                                "type": "minecraft:custom_model_data",
+                                "default": 0,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:custom_model_data",
+                        "index": 1,
+                        "on_true": {
+                            "type": "minecraft:model",
+                            "model": "jenny:item/nude/idle",
+                            "tints": [
+                                {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0,
+                                    "index": 0
+                                }
+                            ]
+                        },
+                        "on_false": {
+                            "type": "minecraft:select",
+                            "property": "minecraft:custom_model_data",
+                            "index": 1,
+                            "cases": [
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/payment",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "payment"
+                                },
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/strip",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "strip"
+                                },
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/blowjob/intro",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "blowjob_intro"
+                                },
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/blowjob/suck",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "blowjob_suck"
+                                },
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/blowjob/thurst",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "blowjob_thurst"
+                                },
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/blowjob/cum",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "blowjob_cum"
+                                },
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/boobjob/intro",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "boobjob_intro"
+                                },
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/boobjob/slow",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "boobjob_slow"
+                                },
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/boobjob/fast",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "boobjob_fast"
+                                },
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/boobjob/cum",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "boobjob_cum"
+                                },
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/doggy/bed",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "doggy_bed"
+                                },
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/doggy/intro",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "doggy_intro"
+                                },
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/doggy/slow",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "doggy_slow"
+                                },
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/doggy/fast/soft",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "doggy_fast_soft"
+                                },
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/doggy/fast/hard",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "doggy_fast_hard"
+                                },
+                                {
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "jenny:item/nude/doggy/cum",
+                                        "tints": [
+                                            {
+                                                "type": "minecraft:custom_model_data",
+                                                "default": 0,
+                                                "index": 0
+                                            }
+                                        ]
+                                    },
+                                    "when": "doggy_cum"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "when": "nude"
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "on_true": {
+                "type": "minecraft:model",
+                "model": "jenny:item/walk",
+                "tints": [
+                    {
+                        "type": "minecraft:custom_model_data",
+                        "default": 0,
+                        "index": 0
+                    }
+                ]
+            },
+            "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "jenny:item/idle",
+                    "tints": [
+                        {
+                            "type": "minecraft:custom_model_data",
+                            "default": 0,
+                            "index": 0
+                        }
+                    ]
+                },
+                "on_false": {
+                    "type": "minecraft:select",
+                    "property": "minecraft:custom_model_data",
+                    "index": 1,
+                    "cases": [
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "jenny:item/payment",
+                                "tints": [
+                                    {
+                                        "type": "minecraft:custom_model_data",
+                                        "default": 0,
+                                        "index": 0
+                                    }
+                                ]
+                            },
+                            "when": "payment"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "jenny:item/strip",
+                                "tints": [
+                                    {
+                                        "type": "minecraft:custom_model_data",
+                                        "default": 0,
+                                        "index": 0
+                                    }
+                                ]
+                            },
+                            "when": "strip"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "jenny:item/blowjob/intro",
+                                "tints": [
+                                    {
+                                        "type": "minecraft:custom_model_data",
+                                        "default": 0,
+                                        "index": 0
+                                    }
+                                ]
+                            },
+                            "when": "blowjob_intro"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "jenny:item/blowjob/suck",
+                                "tints": [
+                                    {
+                                        "type": "minecraft:custom_model_data",
+                                        "default": 0,
+                                        "index": 0
+                                    }
+                                ]
+                            },
+                            "when": "blowjob_suck"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "jenny:item/blowjob/thurst",
+                                "tints": [
+                                    {
+                                        "type": "minecraft:custom_model_data",
+                                        "default": 0,
+                                        "index": 0
+                                    }
+                                ]
+                            },
+                            "when": "blowjob_thurst"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "jenny:item/blowjob/cum",
+                                "tints": [
+                                    {
+                                        "type": "minecraft:custom_model_data",
+                                        "default": 0,
+                                        "index": 0
+                                    }
+                                ]
+                            },
+                            "when": "blowjob_cum"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

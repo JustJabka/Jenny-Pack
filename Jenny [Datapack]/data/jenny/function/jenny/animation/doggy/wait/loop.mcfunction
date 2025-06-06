@@ -1,0 +1,1 @@
+execute at @a[predicate=jenny:id,tag=!animation,limit=1] if entity @e[type=minecraft:text_display,tag=animation,tag=!temp,predicate=jenny:id,distance=..1.65,limit=1] run function jenny:jenny/animation/doggy/wait/end

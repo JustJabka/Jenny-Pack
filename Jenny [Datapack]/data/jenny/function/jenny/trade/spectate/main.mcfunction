@@ -1,0 +1,1 @@
+tp @s @e[type=minecraft:text_display,tag=animation,tag=!temp,predicate=jenny:id,limit=1]
