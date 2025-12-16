@@ -2,7 +2,7 @@ tag @s remove jenny.doggy.search
 data modify entity @s NoAI set value false
 data modify entity @s Invulnerable set value false
 item modify entity @s armor.head jenny:idle
-kill @e[type=minecraft:text_display,tag=animation,tag=!temp,predicate=jenny:id]
+kill @e[type=minecraft:text_display,tag=camera,predicate=jenny:id]
 tag @a[predicate=jenny:id] remove animation
 
 execute positioned ~-5 ~-5 ~-5 if block ~ ~ ~ #minecraft:beds[part=foot,occupied=false] run return run function jenny:jenny/animation/doggy/search/main
@@ -1336,4 +1336,5 @@ execute positioned ~5 ~5 ~2 if block ~ ~ ~ #minecraft:beds[part=foot,occupied=fa
 execute positioned ~5 ~5 ~3 if block ~ ~ ~ #minecraft:beds[part=foot,occupied=false] run return run function jenny:jenny/animation/doggy/search/main
 execute positioned ~5 ~5 ~4 if block ~ ~ ~ #minecraft:beds[part=foot,occupied=false] run return run function jenny:jenny/animation/doggy/search/main
 execute positioned ~5 ~5 ~5 if block ~ ~ ~ #minecraft:beds[part=foot,occupied=false] run return run function jenny:jenny/animation/doggy/search/main
-tellraw @a ["<Jenny> ",{"translate":"jenny.dialogue.nobedinsigh","fallback":"no bed in sight..."}]
+tellraw @a[predicate=jenny:id,limit=1] ["<Jenny> ",{"translate":"jenny.dialogue.nobedinsigh","fallback":"no bed in sight..."}]
+function jenny:jenny/trade/ai/enable

@@ -10,7 +10,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"translate\":\"item.jenny.jenny_spawn_egg\",\"fallback\":\"Jenny Spawn Egg\"}",
+                                "minecraft:item_name": {
+                                    "translate": "item.jenny.jenny_spawn_egg",
+                                    "fallback": "Jenny Spawn Egg"
+                                },
                                 "minecraft:item_model": "jenny:jenny_spawn_egg",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:wandering_trader",
@@ -22,13 +25,13 @@
                                     "CanPickUpLoot": false,
                                     "DeathLootTable": "jenny:entities/jenny",
                                     "Silent": true,
-                                    "CustomName": "{\"translate\":\"entity.jenny.jenny\",\"fallback\":\"Jenny\"}",
+                                    "CustomName": {
+                                        "translate": "entity.jenny.jenny",
+                                        "fallback": "Jenny"
+                                    },
                                     "CustomNameVisible": false,
-                                    "ArmorItems": [
-                                        {},
-                                        {},
-                                        {},
-                                        {
+                                    "equipment": {
+                                        "head": {
                                             "id": "minecraft:poisonous_potato",
                                             "components": {
                                                 "minecraft:item_model": "jenny:jenny",
@@ -46,17 +49,15 @@
                                                 }
                                             }
                                         }
-                                    ],
-                                    "ArmorDropChances": [
-                                        0.0,
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "HandDropChances": [
-                                        0.0,
-                                        0.0
-                                    ],
+                                    },
+                                    "drop_chances": {
+                                        "head": 0.0,
+                                        "body": 0.0,
+                                        "legs": 0.0,
+                                        "feet": 0.0,
+                                        "mainhand": 0.0,
+                                        "offhand": 0.0
+                                    },
                                     "active_effects": [
                                         {
                                             "id": "minecraft:invisibility",
@@ -77,7 +78,10 @@
                                                     "id": "minecraft:poisonous_potato",
                                                     "count": 1,
                                                     "components": {
-                                                        "minecraft:item_name": "{\"translate\":\"action.names.strip\",\"fallback\":\"Strip\"}",
+                                                        "minecraft:item_name": {
+                                                            "translate": "action.names.strip",
+                                                            "fallback": "Strip"
+                                                        },
                                                         "minecraft:item_model": "jenny:heart",
                                                         "minecraft:custom_data": {
                                                             "jenny.strip": true,
@@ -98,7 +102,10 @@
                                                     "id": "minecraft:poisonous_potato",
                                                     "count": 1,
                                                     "components": {
-                                                        "minecraft:item_name": "{\"translate\":\"action.names.doggy\",\"fallback\":\"Doggy\"}",
+                                                        "minecraft:item_name": {
+                                                            "translate": "action.names.doggy",
+                                                            "fallback": "Doggy"
+                                                        },
                                                         "minecraft:item_model": "jenny:heart",
                                                         "minecraft:custom_data": {
                                                             "jenny.doggy": true,
@@ -119,7 +126,10 @@
                                                     "id": "minecraft:poisonous_potato",
                                                     "count": 1,
                                                     "components": {
-                                                        "minecraft:item_name": "{\"translate\":\"action.names.boobjob\",\"fallback\":\"Boobjob\"}",
+                                                        "minecraft:item_name": {
+                                                            "translate": "action.names.boobjob",
+                                                            "fallback": "Boobjob"
+                                                        },
                                                         "minecraft:item_model": "jenny:heart",
                                                         "minecraft:custom_data": {
                                                             "jenny.boobjob": true,
@@ -140,7 +150,10 @@
                                                     "id": "minecraft:poisonous_potato",
                                                     "count": 1,
                                                     "components": {
-                                                        "minecraft:item_name": "{\"translate\":\"action.names.blowjob\",\"fallback\":\"Blowjob\"}",
+                                                        "minecraft:item_name": {
+                                                            "translate": "action.names.blowjob",
+                                                            "fallback": "Blowjob"
+                                                        },
                                                         "minecraft:item_model": "jenny:heart",
                                                         "minecraft:custom_data": {
                                                             "jenny.blowjob": true,

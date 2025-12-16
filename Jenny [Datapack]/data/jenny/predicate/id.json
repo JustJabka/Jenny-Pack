@@ -7,17 +7,17 @@
                 "type": "minecraft:score",
                 "target": {
                     "type": "minecraft:fixed",
-                    "name": "#temp"
+                    "name": "#this"
                 },
-                "score": "main_score"
+                "score": "jenny.id"
             },
             "max": {
                 "type": "minecraft:score",
                 "target": {
                     "type": "minecraft:fixed",
-                    "name": "#temp"
+                    "name": "#this"
                 },
-                "score": "main_score"
+                "score": "jenny.id"
             }
         }
     }

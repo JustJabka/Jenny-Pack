@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:notice",
+	"title": {
+		"translate": "dialog.jenny.pornwarning.title",
+		"fallback": "Adult content warning!"
+	},
+	"body": [
+		{
+			"type": "minecraft:plain_message",
+			"contents": {
+				"translate": "dialog.jenny.pornwarning.text",
+				"fallback": "This world has datapack that contains pornographic content. By continuing, you are confirming that you are at least 18 years old."
+			}
+		}
+	],
+	"can_close_with_escape": false,
+	"pause": true,
+	"action": {
+		"label": {
+			"translate": "dialog.jenny.pornwarning.confirmation",
+			"fallback": "I'm at least 18 years old!"
+		},
+		"action": {
+			"type": "minecraft:run_command",
+			"command": "trigger jenny.pornwarning set 1"
+		}
+	}
+}

@@ -1,0 +1,43 @@
+{
+    "criteria": {
+        "fucking": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wandering_trader",
+                    "nbt": "{\"Tags\":[\"jenny\",\"jenny.fucking\"]}"
+                }
+            }
+        },
+        "wait": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wandering_trader",
+                    "nbt": "{\"Tags\":[\"jenny\",\"jenny.wait\"]}"
+                }
+            }
+        },
+        "wait_player": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wandering_trader",
+                    "nbt": "{\"Tags\":[\"jenny\",\"jenny.wait_player\"]}"
+                }
+            }
+        },
+        "doggy_wait": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wandering_trader",
+                    "nbt": "{\"Tags\":[\"jenny\",\"jenny.doggy.wait\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "jenny:jenny/trade/busy"
+    }
+}

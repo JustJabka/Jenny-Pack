@@ -5,11 +5,7 @@ scoreboard players set @s jenny.animation 133
 scoreboard players set @s jenny.cum 0
 scoreboard players set @s jenny.hurt_time 0
 
-# ((([/time query gametime] % 24000) - starting frame) % total duration)
-execute store result score #gametime main_score run time query gametime
-scoreboard players operation #gametime main_score %= #24000 const
-scoreboard players operation #gametime main_score %= #133 const
-execute store result entity @s ArmorItems[3].components."minecraft:custom_model_data".colors[0] int 1 run scoreboard players get #gametime main_score
+function jenny:jenny/animation/set
 
 item modify entity @s armor.head jenny:doggy/cum
 playsound jenny:girls.jenny.moan.moan neutral @a[distance=..10] ~ ~ ~

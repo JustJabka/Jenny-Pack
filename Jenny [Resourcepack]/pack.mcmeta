@@ -1,6 +1,6 @@
 {
 	"pack": {
-    	"pack_format": 46,
-		"description": "Jarvis prepare the goon chair"
+		"description": "Jarvis prepare the goon chair",
+		"pack_format": 64
 	}
 }

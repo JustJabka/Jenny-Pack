@@ -29,5 +29,10 @@
     "jenny.dialogue.blowjobtext7": "Да",
     "jenny.dialogue.blowjobtext8": "Хихихи~",
     "jenny.dialogue.doggytext1": "чего же ты ждешь?~",
-    "jenny.dialogue.doggytext2": "эта попка не трахнет сама себя..."
+    "jenny.dialogue.doggytext2": "эта попка не трахнет сама себя...",
+
+    "dialog.jenny.pornwarning.title": "18+ контент!",
+    "dialog.jenny.pornwarning.text": "В этом мире установлен датапак с порнографическим содержанием. Продолжая, вы подтверждаете, что вам не меньше 18 лет.",
+    "dialog.jenny.pornwarning.confirmation": "Мне не меньше 18!",
+    "dialog.jenny.pornwarning.after_confirmation": "<JustJabka> Веселись :)"
 }
