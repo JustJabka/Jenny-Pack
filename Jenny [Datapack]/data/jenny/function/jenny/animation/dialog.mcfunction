@@ -1,0 +1,1 @@
+execute if entity @s[tag=jenny.payment] run return run function jenny:jenny/animation/payment/dialog

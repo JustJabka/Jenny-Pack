@@ -10,5 +10,8 @@ execute if entity @s[tag=jenny.doggy.wait_player] run function jenny:jenny/anima
 execute if score @s[tag=jenny.doggy.slow] jenny.animation matches 29 run function jenny:jenny/animation/doggy/slow/end
 execute if entity @s[tag=jenny.doggy.fast,predicate=jenny:doggy_fast] run function jenny:jenny/animation/doggy/fast/playsound
 
+# If animation is running
+execute if score @s jenny.animation matches 1.. run return run function jenny:jenny/animation/dialog
+
 # If animation ended
-execute if score @s jenny.animation matches ..0 run function jenny:jenny/animation/detect
+execute if score @s jenny.animation matches ..0 run function jenny:jenny/animation/end

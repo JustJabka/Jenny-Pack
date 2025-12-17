@@ -1,5 +1,3 @@
-playsound jenny:girls.jenny.huh.huh neutral @a[distance=..10] ~ ~ ~
-
 scoreboard players set @s jenny.animation 186
 function jenny:jenny/trade/ai/disable
 

@@ -1336,5 +1336,5 @@ execute positioned ~5 ~5 ~2 if block ~ ~ ~ #minecraft:beds[part=foot,occupied=fa
 execute positioned ~5 ~5 ~3 if block ~ ~ ~ #minecraft:beds[part=foot,occupied=false] run return run function jenny:jenny/animation/doggy/search/main
 execute positioned ~5 ~5 ~4 if block ~ ~ ~ #minecraft:beds[part=foot,occupied=false] run return run function jenny:jenny/animation/doggy/search/main
 execute positioned ~5 ~5 ~5 if block ~ ~ ~ #minecraft:beds[part=foot,occupied=false] run return run function jenny:jenny/animation/doggy/search/main
-tellraw @a[predicate=jenny:id,limit=1] ["<Jenny> ",{"translate":"jenny.dialogue.nobedinsigh","fallback":"no bed in sight..."}]
+tellraw @a[predicate=jenny:id,limit=1] {translate:"jenny.dialogue.nobedinsigh",fallback:"<Jenny> no bed in sight..."}
 function jenny:jenny/trade/ai/enable
