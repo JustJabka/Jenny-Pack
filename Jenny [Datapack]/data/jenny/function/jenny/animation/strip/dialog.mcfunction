@@ -1,0 +1,2 @@
+execute if score @s jenny.animation matches 100 run playsound jenny:girls.jenny.giggle.giggle neutral @a[distance=..10] ~ ~ ~
+execute if score @s jenny.animation matches 100 run tellraw @a[distance=..10] {translate:"jenny.dialogue.hihi",fallback:"Hihi~"}

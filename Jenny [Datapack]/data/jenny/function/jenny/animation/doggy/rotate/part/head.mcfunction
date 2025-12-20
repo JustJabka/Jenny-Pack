@@ -3,4 +3,4 @@ execute if block ~ ~-0.01 ~ #minecraft:beds[facing=north,part=head] run rotate @
 execute if block ~ ~-0.01 ~ #minecraft:beds[facing=south,part=head] run rotate @s 0 0
 execute if block ~ ~-0.01 ~ #minecraft:beds[facing=west,part=head] run rotate @s 90 0
 
-execute rotated as @s run rotate @e[type=minecraft:text_display,tag=camera,predicate=jenny:id,limit=1] ~ ~20
+execute rotated as @s run rotate @e[type=minecraft:text_display,tag=camera,predicate=jenny:id,limit=1] ~ ~

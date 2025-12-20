@@ -19,10 +19,11 @@ scoreboard objectives add jenny.pornwarning trigger
 
 data modify storage jenny:main actionbar.hornymeter set value ["󏼸󏿢0󏿬","󏼸󏿢1󏿬","󏼸󏿢2󏿬","󏼸󏿢3󏿬","󏼸󏿢4󏿬","󏼸󏿢5󏿬","󏼸󏿢6󏿬","󏼸󏿢7󏿬","󏼸󏿢8󏿬","󏼸󏿢9󏿬","󏼸󏿢a󏿬","󏼸󏿢b󏿬","󏼸󏿢c󏿬","󏼸󏿢d󏿬","󏼸󏿢e󏿬","󏼸󏿢f󏿬","󏼸󏿢g󏿬","󏼸󏿢h󏿬","󏼸󏿢i󏿬","󏼸󏿢j󏿬","󏼸󏿢k󏿶"]
 
+execute in jenny:main run forceload add 0 0 0 0
+
 # TODO:
 # Add death animation
 # Add dialogs
 # Add sfx
 # Make player model animated
-# Optimization
 # Fix hornymeter going off screen on lower resolutions

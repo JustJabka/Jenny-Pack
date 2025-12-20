@@ -1,6 +1,6 @@
 tag @s add jenny.doggy.wait_player
 
-execute anchored eyes positioned ~ ~0.25 ~ run tp @e[type=minecraft:text_display,tag=camera,predicate=jenny:id] ^ ^ ^-1
+execute anchored feet run tp @e[type=minecraft:text_display,tag=camera,predicate=jenny:id] ^ ^ ^-0.65
 
 # Freezing on last frime
 scoreboard players set @s jenny.animation 130
